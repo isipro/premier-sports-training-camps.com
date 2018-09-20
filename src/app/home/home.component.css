@@ -1,0 +1,49 @@
+.header-section{
+    background-image: url("/assets/header-section-background.jpg");
+
+    color: white;
+    height: 600px;
+    background-size: cover;
+    border: 1px solid green;
+}
+.header-section-logo{
+    margin-top: 45%;
+    height: 150px;
+    text-align: center;
+}
+
+.header-section-slogen{
+    position: absolute;
+    bottom: 230px;
+    left: 30px;
+    color: white;
+}
+
+/* Extra small devices (phones, less than 768px) */
+/* No media query since this is the default in Bootstrap */
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+
+    .header-section-logo{
+        margin-top: 35%;
+    }
+
+ }
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+
+    .header-section-logo{
+        margin-top: 15%;
+    }
+
+ }
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+    .header-section-logo{
+        margin-top: 10%;
+    }
+
+ }

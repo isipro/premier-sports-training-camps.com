@@ -1,0 +1,18 @@
+.premier-service{
+    border: 1px solid rgb(240, 239, 239);
+    border-radius: 5px;
+    padding: 10px 0;
+    margin-bottom: 10px;
+    background-color: rgb(250, 250, 250);
+    /* background-image: url('/assets/swimming.jpg');*/
+    text-align: center;   
+}
+.premier-service img{
+    border-radius: 5px;
+    width: 330px;
+    height: 150px;    
+}
+.premier-service h1,h2,h3,h4 {
+    text-align: left;
+    padding-left: 10px;
+}
