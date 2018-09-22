@@ -1,10 +1,8 @@
 .header-section{
     background-image: url("/assets/header-section-background.jpg");
-
     color: white;
     height: 600px;
     background-size: cover;
-    border: 1px solid green;
 }
 .header-section-logo{
     margin-top: 45%;
@@ -13,10 +11,9 @@
 }
 
 .header-section-slogen{
-    position: absolute;
-    bottom: 230px;
-    left: 30px;
     color: white;
+    font-family: 'Poppins', sans-serif !important;
+    font-size: 38px;
 }
 
 /* Extra small devices (phones, less than 768px) */

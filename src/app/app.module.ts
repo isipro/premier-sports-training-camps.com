@@ -8,6 +8,7 @@ import { NavbarComponent } from './navbar/navbar.component';
 import { ServicesComponent } from './services/services.component';
 import { FooterComponent } from './footer/footer.component';
 import { SportsComponent } from './sports/sports.component';
+import { FacilitiesComponent } from './facilities/facilities.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { SportsComponent } from './sports/sports.component';
     NavbarComponent,
     ServicesComponent,
     FooterComponent,
-    SportsComponent
+    SportsComponent,
+    FacilitiesComponent
   ],
   imports: [
     BrowserModule,

@@ -1,0 +1,107 @@
+.facilities-section{
+    background-color: balck;
+
+    position: relative;
+    margin-bottom: 50px;
+}
+
+/* overwritting bootstrap carousel background */
+.carousel{
+    background-color: black !important;
+    padding-top: 10px;
+}
+
+.facilities-section-carousel img{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.facilities-section-caption{
+    position: absolute;
+    background-color: rgba(0,0,0, 0.8);
+    width: 100%;
+    height: 80px;
+    bottom: 0;
+    left: 0; 
+    z-index: 10;
+}
+
+.facilities-section-caption h2{
+    padding: 0 !important;
+    margin: 0 !important;
+    font-family: 'Poppins', sans-serif;
+    font-size: 25px !important;
+    line-height: 80px;
+    text-align: left;
+    color: white;
+    z-index: 10;
+}
+
+.facilities-section-caption img{
+    position: absolute;
+    width: 50px;
+    left: 30px;
+    bottom: -52px;
+}
+
+.facilities-section-caption h2::first-letter{
+    color: rgb(51, 102, 255) !important;
+}
+
+/*
+Attempt to modify Bootstrap Carousel with responsive backgorund images
+
+
+.facilities-section-carousel item{
+    background-size: cover !important;
+    width: 100% !important;
+    height: 350px !important;
+}
+
+.facilities-section-carousel fs-item-1{
+    background-image: url('/assets/accommodation1.jpg');
+}
+.facilities-section-carousel fs-item-2{
+    background-image: url('/assets/accommodation2.jpg');
+}
+.facilities-section-carousel fs-item-3{
+    background-image: url('/assets/accommodation3.jpg');
+}
+*/
+
+/* Bootstrap Media Queries - @variables exchanged with the real sizes ) */
+/* Extra small devices (phones, less than 768px) */
+/* No media query since this is the default in Bootstrap */
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+
+    .facilities-section-caption{
+        height: 150px;
+    }
+    .facilities-section-caption h2{
+        line-height: 150px;
+        font-size: 55px !important;
+    }
+
+    .facilities-section-caption img{
+        position: absolute;
+        width: 100px;
+        left: 69px;
+        bottom: -102px;
+    }
+
+ }
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+
+
+ }
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+
+
+ }
