@@ -1,3 +1,8 @@
+.sports-section{
+    margin-bottom: 50px;
+    padding-top: 100px;
+}
+
 .premier-sports{
     border: 1px solid rgb(240, 239, 239);
     border-radius: 5px;
@@ -5,8 +10,18 @@
     margin-bottom: 10px;
     background-color: rgb(250, 250, 250);
     /* background-image: url('/assets/swimming.jpg');*/
-    text-align: center;   
+    text-align: center;
+    width: 350px   
 }
+
+.premier-sports:hover{
+    background-color: rgb(255, 255, 255);
+    border: 0px;
+    position: relative;
+    top: -10px;
+    width: 360px 
+}
+
 .premier-sports img{
     border-radius: 5px;
     width: 330px;
