@@ -26,7 +26,6 @@
 }
 
 
-
 .services-media--title{
     font-size: 35px;
     font-weight: 200;
@@ -39,4 +38,21 @@
 .service-media--icon{
     font-size: 35px;
     color: rgb(51, 102, 255);
+}
+
+
+
+
+.media{
+    margin-right: 30px;
+    margin-bottom: 100px;
+}
+
+@media (min-width: 1200px) {
+   .media{
+        margin-right: 30px;
+        margin-left: 30px;
+        margin-bottom: 50px;
+   }
+
 }

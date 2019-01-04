@@ -7,17 +7,22 @@
         </div>
     </div>
     <div class="row">
-            <div class="col-md-offset-1 col-md-5 ">
+            <div class="col-md-6 ">
             <div class="media services-media">
                 <div class="media-left">
                     <span class="glyphicon glyphicon glyphicon-star-empty service-media--icon" aria-hidden="true"></span>
                 </div>
                 <div class="media-body">
                     <h2 class="media-heading services-media--title">Professional Training Camps</h2>
-                    Our training camps are designed with emphasis on the athlete’s training environment and facilities at the very heart, ensuring that they can make the very best use of their time training and so work towards achieving their maximum potential.
+                    <p>
+                            Our training camps are designed with emphasis on the athlete’s training environment and facilities at the very heart, ensuring that they can make the very best use of their time training and so work towards achieving their maximum potential.
 
-All of our camps are organised at high quality sports Centres with relevant facilities and excellent accommodation.
-<ul>
+                    </p>
+             <p>
+                    All of our camps are organised at high quality sports Centres with relevant facilities and excellent accommodation.</p>
+                    <ul>
+                    
+
                         <li class="service_li">Accommodation</li> 
                         <li class="service_li">Airport Transfers</li>
                         <li class="service_li">Daily training transfers</li>
@@ -29,25 +34,23 @@ All of our camps are organised at high quality sports Centres with relevant faci
                 </div>
             </div>
         </div>
-        <div class="col-md-5 col-md-offset-1">
+        <div class="col-md-6">
                 <div class="media services-media">
                     <div class="media-left">
                         <span class="glyphicon glyphicon glyphicon glyphicon-book service-media--icon" aria-hidden="true"></span>
                     </div>
                     <div class="media-body">
                         <h2 class="media-heading services-media--title">Consultancy</h2>
-                        Consultancy services for Professional Training Camps....
                         <ul>
-                            <li class="service_li">etus scelerisque ante sollic</li>
-                            <li class="service_li">etus scelerisque ante sollic</li>
-                            <li class="service_li">etus scelerisque ante sollic</li> 
+                            <li class="service_li" *ngFor="let service of consultancy">{{service}}</li>
+ 
                         </ul>
                     </div>
                 </div>
         </div>
     </div>
     <div class="row">
-            <div class="col-md-offset-1 col-md-5">
+            <div class="col-md-6">
                 <div class="media services-media">
                     <div class="media-left">
                         <span class="glyphicon glyphicon glyphicon glyphicon-globe service-media--icon" aria-hidden="true"></span>
@@ -62,7 +65,7 @@ All of our camps are organised at high quality sports Centres with relevant faci
                     </div>
                 </div>
             </div>
-            <div class="col-md-5 col-md-offset-1">
+            <div class="col-md-6">
                     <div class="media services-media">
                         <div class="media-left">
                             <span class="glyphicon glyphicon glyphicon glyphicon glyphicon-bookmark service-media--icon" aria-hidden="true"></span>

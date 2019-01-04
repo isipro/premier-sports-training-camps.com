@@ -22,8 +22,12 @@
 <p>Our training camps are designed with emphasis on the athlete’s training environment and facilities at the very heart, ensuring that they can make the very best use of their time training and so work towards achieving their maximum potential.
 </p> 
 <p>All of our camps are organised at high quality sports Centres with relevant facilities and excellent accommodation.
- <a href=""> read more... </a>  
+   
 </p> 
+<p *ngIf="showText" [innerHTML]="introText">
+ </p>
+ <a href="JavaScript:Void(0)" (click)="showText = !showText" *ngIf="showText == false"> read more... </a>
+ <a href="JavaScript:Void(0)" (click)="showText = !showText" *ngIf="showText == true"> read less </a>
 
 </section>
 
