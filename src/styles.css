@@ -1,1 +1,26 @@
 /* You can add global styles to this file, and also import other style files */
+
+
+@media (min-width: 1366px){
+    .container {
+        width: 1266px;
+    }
+}
+
+
+.pc-section{
+    margin-bottom: 50px;
+    padding-top: 50px;
+}
+.section--title {
+    text-align: center;
+    font-size: 45px;
+    color: rgb(51, 102, 255);
+    padding-bottom: 55px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 200;
+}
+
+.section--title:hover{
+    font-weight: 400;
+}
