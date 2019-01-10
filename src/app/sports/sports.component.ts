@@ -12,4 +12,45 @@ export class SportsComponent implements OnInit {
   ngOnInit() {
   }
 
+
+sports = [
+  {
+    sportName: 'Canoeing',
+    imgUrl: 'assets/canoeing.jpg' 
+  },
+  {
+    sportName: 'Rowing',
+    imgUrl: 'assets/rowing.jpg' 
+  },
+  {
+    sportName: 'Rowing',
+    imgUrl: 'assets/rowing.jpg' 
+  },
+  {
+    sportName: 'Rowing',
+    imgUrl: 'assets/rowing.jpg' 
+  },
+  {
+    sportName: 'Rowing',
+    imgUrl: 'assets/rowing.jpg' 
+  },
+  {
+    sportName: 'Rowing',
+    imgUrl: 'assets/rowing.jpg' 
+  },
+  {
+    sportName: 'Rowing',
+    imgUrl: 'assets/rowing.jpg' 
+  },
+  {
+    sportName: 'Rowing',
+    imgUrl: 'assets/rowing.jpg' 
+  },
+  {
+    sportName: 'Rowing',
+    imgUrl: 'assets/rowing.jpg' 
+  },
+
+]
+
 }
