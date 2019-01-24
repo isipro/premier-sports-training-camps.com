@@ -34,13 +34,13 @@
 .submit-btn:visited {
     
     background-color: transparent;
-    border: 1px solid #129CF3;
+    border: 1px solid rgb(51, 102, 255);
     border-radius: 4px;
     width: 100%;
     height: 50px;
     text-transform: uppercase;
     font-size: 18px;
-    color: #129CF3;
+    color: rgb(51, 102, 255);
     outline: 0px !important;
     transition: all 1s;
     -moz-transition: all 1s;
@@ -48,9 +48,9 @@
     -webkit-transition: all 1s;
 }
 .submit-btn:hover {
-    background: #129CF3;
+    background: rgb(51, 102, 255);
     color: #fff;
-    border-color: #129CF3;
+    border-color: rgb(51, 102, 255);
 }
 .social-icons {
     padding-top: 50px;
@@ -87,8 +87,8 @@
 }
 .social-icons ul li a:hover {
     
-    background-color: #129CF3;
-    border: 1px solid #129CF3;
+    background-color: rgb(51, 102, 255);
+    border: 1px solid rgb(51, 102, 255);
     color: #fff;
 } 
 .social-icons ul li a i {
