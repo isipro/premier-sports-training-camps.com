@@ -10,14 +10,14 @@ $(document).ready(function(){
         
         if($(window).scrollTop() < 80 ) {
             
-            $('.navbar').css ({
-               'margin-top': '-100px',
-                'opacity': '0'
+            // $('.navbar').css ({
+            //    'margin-top': '-100px',
+            //     'opacity': '0'
                 
-            });
+            // });
             
             $('.navbar-default').css({
-                'background-color': 'rgba(59, 59 , 59, 0)'
+                'background-color': 'rgba(0, 0 , 0, 1)'
                 
             });
             

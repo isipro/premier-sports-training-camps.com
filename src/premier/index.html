@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>PremierCamps</title>
+  <base href="/">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+
+  <!-- fontawesome https://fontawesome.com -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Poppins:200,400|Roboto:300,400" rel="stylesheet">
+
+  <link rel="stylesheet" href="assets/vendor/wow/animate.css" />
+  <link rel="stylesheet" href="assets/vendor/css/jquery.bxslider.css" />
+
+</head>
+<body>
+  <app-root></app-root>
+
+
+  <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <!-- Latest compiled and minified JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous">
+  </script>
+  <script src="assets/vendor/wow/wow.min.js"></script>
+
+  <script>
+  
+  var wow = new WOW(
+    {
+      boxClass:     'wow',      // animated element css class (default is wow)
+      animateClass: 'animated', // animation css class (default is animated)
+      offset:       0,          // distance to the element when triggering the animation (default is 0)
+      mobile:       true,       // trigger animations on mobile devices (default is true)
+      live:         true,       // act on asynchronously loaded content (default is true)
+      callback:     function(box) {
+        // the callback is fired every time an animation is started
+        // the argument that is passed in is the DOM node being animated
+      },
+      scrollContainer: null // optional scroll container selector, otherwise use window
+    }
+  );
+
+  this.wow.init();
+  
+  </script>
+<script src="assets/vendor/js/jquery.bxslider.min.js"></script>
+<script src="assets/vendor/js/custom.js"></script>
+</body>
+</html>
